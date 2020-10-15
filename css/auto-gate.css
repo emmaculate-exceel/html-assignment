@@ -1,0 +1,398 @@
+/* GENERAL ELEMENT CSS */
+*{
+    transition: all 1s;
+}
+
+* button{
+    color:white;
+    background-color: black;
+    border: none;
+}
+.hover-effect:hover{
+    /* border:2px solid black; */
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* HEADERS FONT FAMILY FOR CSS  */
+h1,h2,h3,h4,h5,h6{
+    font-family: verdana;
+    margin:  5px 0px;
+}
+/* GENERAL P TAGS CSS  */
+p {
+    font-weight:800px;
+    font-family: monospace;
+}
+/* MY NAVBAR CSS */
+nav{
+    position: fixed;
+    width:100%;
+    border-bottom:1px solid rgb(231, 228, 228);
+    top: 0px;
+    margin-bottom: 100px;
+    z-index: 300;
+    font-family:verdana;
+    height: 70px;
+    background-color:white;
+}
+
+.header-content{
+    display:inline-block;
+    transition:all 1s;
+}
+
+.header-container{
+    width: 90%;
+    margin:0.5em auto;
+    padding: auto;
+}
+
+.header-title{
+    display: inline;
+    font-size:35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    float:right;
+}
+
+li{
+    display:inline;
+    list-style-type: none;
+    margin-left:30px;
+}
+/* LANDING PAGE CSS */
+
+section{
+    clear: both;
+    margin-top: 70px;
+}
+
+.header-bg{
+    position:relative;
+    background: url("../images/images/aboutImg.jpg")0,0;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    transition:all 3s;
+    z-index: -3;
+
+}
+
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 75vh;
+    background-color: black;
+    opacity: .5;
+    z-index: -3;
+}
+
+.header-btn{
+    padding:18px 35px;
+    border-radius: 10px;
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    margin: 350px 12px 0px 0px;
+
+}
+
+#partial{
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    margin-left: 80px;
+}
+
+.sub{
+    color: rgb(128, 125, 125);
+}
+ /* ABOUT US SECTION FOR THE PAGE */
+
+.about-us{
+    width:90%;
+    margin:120px auto;
+    text-align:center;
+}
+.about-us-title{
+    font-size:30px;
+}
+.img{
+    float: right;
+}
+.about-us-image{
+    display: inline-block;
+    height: 420px;
+    width: 400px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+
+.about-us-image:hover{
+    width:420px;
+    height: 430px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.about-us-content{
+    padding: 50px 0px;
+}
+.about-us-text{
+    clear:left;
+    text-align:left;
+}
+
+ /* GALLERY SECTION FOR THE PAGE */
+
+.gallery{
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    width: 100%;
+    margin:80px auto;
+    padding-top:30px;
+    clear:both;
+    filter: drop-shadow(2px 2px 5px gray);
+}
+
+.gallery-header{
+    font-size: 30px;
+}
+
+.gallery-us{
+    display:inline-block;
+    border: 2px solid rgb(165, 164, 164);
+    border-radius: 10px;
+    margin:50px;
+}
+
+.gallery-us > img{
+    width: 326px;
+    height: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 2s;
+}
+
+.gallery-us > img:hover{
+    width:350px;
+    height: 180px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.car-btn{
+    padding:7px 70px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+/* SERVICE SECTION FOR CSS */
+
+.services{
+    width:90%;
+    margin:50px auto;
+    height: 74vh;
+}
+
+.services-header{
+    font-size: 30px;
+    filter: drop-shadow(2px 2px 5px gray)
+
+}
+.filter{
+    filter: drop-shadow(2px 2px 5px gray)
+}
+
+.services-form, .services-description{
+    display: inline-block;
+    position: static;
+    margin:auto;
+    text-align: left;
+    width:40%;
+}
+
+.services-description{
+    float:right;
+    border-radius: 10px;
+    margin:0px; 
+}
+
+input{
+    padding: 15px 25px;
+    display:block;
+    margin: 20px 0px;
+    border: 2px solid rgb(165, 164, 164);
+    border-radius: 4px;
+    font-style: oblique;
+    width: 100%;
+}
+
+ * input::after{
+    content: '*';
+    color: red;
+    font-size: 20px;
+}
+textarea{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+select{
+    padding: 15px 25px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid rgb(165, 164, 164);
+    border-radius: 4px;
+    font-style: oblique;
+    width:540px ;
+    display:block;
+}
+
+option{
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.submit-form{
+    clear:both;
+    display:block;
+    padding: 15px 100px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid rgb(165, 164, 164);
+    border-radius: 4px;
+    background-color:black;
+    color: white;
+    border:none;
+}
+
+/* CONTACT US SECTION FOR THE PAGE */
+
+.contact-us {
+    width:100%;
+    margin: 40px auto;
+    box-shadow: 2px 2px 10px gray;
+    padding: 20px 0px;
+    background-color:rgb(241, 239, 239);
+
+}
+.contact-us-header{
+    margin: 0px auto 30px;
+    width: 90%;
+    text-align:center;
+
+}
+
+.contact-us-logo{
+    width:90%;
+    margin: auto;
+    text-align:center;
+}
+
+.contact-us-logo > img{
+    margin:20px 11px;
+    height:130px;
+    filter:grayscale(100%);
+}
+
+/*  FOOTER SECTION FOR THE PAGE */
+
+.footer{
+    width: 100%;
+    margin:70px 0px px;
+
+}
+
+.footer-header{
+    width:90%;
+    margin: 0px auto 40px;
+
+}
+.footer-title{
+    font-size: 30px;
+}
+.footer-content{
+    width: 90%;
+    margin:0px auto 100px;
+    text-align:center;
+}
+
+.footer-details{
+    display: inline-block;
+    margin:px;
+    text-align:left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.footer-details > div{
+    display:inline-block;
+    margin-left:15px;
+    vertical-align: text-bottom;
+    height: 57px;
+}
+
+.indicator{
+    background-color: rgb(179, 175, 175);
+    padding: 20px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-bottom:-20px;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.side{
+    margin: 5px 0px;
+}
+
+
+.side:nth-child(even){
+    background-color:o;
+    margin:px 0px px 0px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter{
+    margin-left: 20px;
+}
+
+.footer-main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:80px 0px;
+}
+
+.Icon {
+    position: fixed;
+    right: 5px;
+    bottom: 300px;
+    background-color:white;
+    border-radius:8px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+.Icon > i{
+    display:block;
+    padding: 17px 15px;
+    z-index: 20;
+    border: 1px solid rgb(179, 175, 175);
+    border-radius: 8px;
+
+}
